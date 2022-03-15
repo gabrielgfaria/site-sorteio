@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    text-align: center;
+    margin: 10px;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Hubballi', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+#dados{
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    width: 40%;
+    height: 50%;
+    background-color: aquamarine;
+
+}
+#nomes{
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 40%;
+    height: 50%;
+    background-color: rgb(233, 175, 238);
+}
+#sorteio{
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    background-color: blueviolet;
+    width: 80%;
+    height: 50%;
+    padding: 10px;
+
+}
+.container{
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+p{
+    
+    font-size: 20px;
+    font-weight: bold;
+}
+.botao{
+    font-weight: bold;
+    padding: 4px;
+    background-color: white;
+    display: inline-block;
+    border: solid;
+    border-radius: 3px;
+    
+}
+
+#entrada_qte{
+    margin: 20px;
+}
+
+input{
+    text-align: center;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+.lista_nomes{
+    margin: 2px;
+    padding: 5px;
+}
+
+div{
+    border-radius: 4px;
+}
+
+#container_sorteio{
+    position:absolute;
+    top:40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#paragrafo_sorteado{
+    background-color: white;
+    border-radius: 2px;
+    margin: 10px;
+}
+
+#botao_sorteio{
+margin-top: 20px;
+}
+
